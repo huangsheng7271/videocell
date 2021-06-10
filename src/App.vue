@@ -1,5 +1,5 @@
 <template>
-  
+  <a-button type="primary" class="button-style">立即登陆</a-button>
 </template>
 
 <script>
@@ -12,5 +12,8 @@ export default {
 </script>
 
 <style>
-
+  .button-style{
+    margin-top: 10rem;
+    margin-left: 10rem;
+  }
 </style>
