@@ -8,8 +8,8 @@ module.exports = {
             modifyVars: {
             //'primary-color': '#1DA57A',
             //'link-color': '#1DA57A',
-              'primary-color': '#f74455',
-              'link-color': '#f74455',
+              'primary-color':'#f74455',
+              'link-color':'#f74455',
               'border-radius-base': '2px',
             },
           },
