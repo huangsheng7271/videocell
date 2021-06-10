@@ -1,5 +1,5 @@
 <template>
-  <a-button type="primary" class="button-style">立即登陆</a-button>
+  <a-button type="primary" shape="round" size="large" class="button-style">立即登陆</a-button>
 </template>
 
 <script>
