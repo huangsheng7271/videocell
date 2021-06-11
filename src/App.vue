@@ -8,7 +8,7 @@
   </div> -->
 
   <div class="gutter-example">
-    <a-row :gutter="[16, { xs: 8, sm: 16, md: 24, lg: 32 }]">
+    <a-row :gutter="{ xs: 0, sm: 16, md: 24, lg: 32 }">
       <a-col
         :xs="0" :sm="4" :md="6" :lg="8" :xl="10"
         class="gutter-row" :span="6">
