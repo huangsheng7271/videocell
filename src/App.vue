@@ -14,7 +14,6 @@ export default {
   name: 'App',
   //子组件
   components: {
-    PageHeader
   },
   //数据
   data: () => ({
@@ -29,6 +28,6 @@ export default {
 }
 
 .ant-btn{
-  box-shadow:0 2px 6px rgb(0 0 0 / 8%);
+  box-shadow:0 2px 4px rgb(0 0 0 / 8%);
 }
 </style>
