@@ -8,13 +8,28 @@
   </div> -->
 
   <div class="gutter-example">
-    <a-row :gutter="[{xs:0, sm:16, md:24, lg:32},16]">
+    <a-row :gutter="[{xs:0, sm:16, md:24, lg:32},24]">
       <a-col
         :xs="24" :sm="24" :md="8" :lg="8" :xl="8"
         class="gutter-row" :span="6">
         <div class="gutter-box">col-6</div>
       </a-col>
       <a-col 
+        :xs="24" :sm="24" :md="8" :lg="8" :xl="8"
+        class="gutter-row" :span="6">
+        <div class="gutter-box">col-6</div>
+      </a-col>
+      <a-col
+        :xs="24" :sm="24" :md="8" :lg="8" :xl="8"
+        class="gutter-row" :span="6">
+        <div class="gutter-box">col-6</div>
+      </a-col>
+      <a-col
+        :xs="24" :sm="24" :md="8" :lg="8" :xl="8"
+        class="gutter-row" :span="6">
+        <div class="gutter-box">col-6</div>
+      </a-col>
+      <a-col
         :xs="24" :sm="24" :md="8" :lg="8" :xl="8"
         class="gutter-row" :span="6">
         <div class="gutter-box">col-6</div>
@@ -57,7 +72,7 @@ export default {
   border: 0;
 }
 .gutter-box {
-  background: #00a0e9;
+  background: #ffb200;
   padding: 5px 0;
   height: 15rem;
 }
