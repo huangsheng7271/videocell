@@ -6,19 +6,13 @@
         :xs="24" :sm="24" :md="12" :lg="12" :xl="6"
         class="gutter-row" :span="6">
         <div class="gutter-box">
-
             <div id="app" class="app-wapper">
-                <modal></modal>
-
                 <br>
-             
                 <a-button type="primary" shape="round" size="large">
                   立即登陆
                 </a-button>
-
-                
-                <br>
-                <br>
+  
+                <br><br>
 
                 <a-pagination v-model="current" :total="50" show-less-items />
 
@@ -27,8 +21,6 @@
                 <a-rate value="2" allowHalf character></a-rate>
 
             </div>
-
-        
         </div>
       </a-col>
     </a-row>
@@ -38,14 +30,13 @@
 </template>
 
 <script>
-import Modal from "./Modal.vue"
-
+//import Modal from "./Modal.vue"
 export default {
   //组件名
   name: 'App',
   //子组件
   components: {
-    Modal
+  //Modal
   },
   //数据
   data: () => ({
@@ -65,6 +56,15 @@ export default {
 
 .ant-btn{
   box-shadow:0 6px 12px rgb(0 0 0 / 12%);
+
+  background: linear-gradient(90deg, #381a64,#9748a8);
+  border: #9748a8;
+}
+
+.ant-btn-primary:hover, .ant-btn-primary:focus {
+  color: #fff;
+  background: linear-gradient(90deg, #381a64,#9748a8);
+  border: #9748a8;
 }
 
 .ant-pagination >>> .ant-pagination-item{
@@ -84,10 +84,10 @@ export default {
   transition-delay: 0s, 0s, 0s;
 }
 
-.ant-pagination >>> .ant-pagination-item-active {
+.ant-pagination >>> .ant-pagination-item-active{
   font-weight: 500;
-  background: #f74455;
-  border-color: #f74455;
+  background: #653084;
+  border-color: #653084;
   box-shadow:0 4px 8px rgb(0 0 0 / 20%);
 
   transition-property:all;
@@ -105,12 +105,12 @@ export default {
   transition-delay: 0s, 0s, 0s;
 }
 
-.gutter-example :deep(.ant-row > div) {
+.gutter-example >>> .ant-row > div{
   background: transparent;
   border: 0;
 }
 .gutter-box {
-  background: #f2f3f8;
+  background: #f4f6f8;
   padding: 5px 0;
   height: 15rem;
 }
